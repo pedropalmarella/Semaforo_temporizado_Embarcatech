@@ -39,6 +39,6 @@ int main()
     while (true) {
 
         sleep_ms(1000);
-        printf("Passou %d\n", tempo_passado++);
+        printf("Passou %d segundo(s)\n", tempo_passado++);
     }
 }
