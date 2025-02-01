@@ -1,6 +1,6 @@
 # Semáforo Temporizado Embarcatech
 
-Este projeto implementa uma simulação de um sistema de semáforo com o objetivo de alternar entre os estados **Vermelho**, **Amarelo** e **Verde** a cada 3 segundos, utilizando temporização por hardware. Além disso, ao pressionar o **joystick (GPIO22)**, o sistema entra no modo de gravação(no caso do kit BitDogLab. Você pode tanto testar no wokwi ou no kit BitDogLab. Ao iniciar o programa a alternância dos leds também é iniciada.
+Este projeto implementa uma simulação de um sistema de semáforo com o objetivo de alternar entre os estados **Vermelho**, **Amarelo** e **Verde** a cada 3 segundos, utilizando temporização por hardware ( função: add_repeating_timer_ms() )  .Além disso, ao pressionar o **joystick (GPIO22)**, o sistema entra no modo de gravação(no caso do kit BitDogLab). Você pode tanto testar no wokwi ou no kit BitDogLab. Ao iniciar o programa a alternância dos leds também é iniciada.
 
 ## Funcionalidades
 
